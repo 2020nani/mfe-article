@@ -21,7 +21,9 @@
     "lib": [
       "ES2022",
       "dom"
-    ]
+    ],
+    "allowJs": true,
+    "typeRoots": ["node_modules/@types", "src"]
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,
